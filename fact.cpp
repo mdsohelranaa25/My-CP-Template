@@ -19,7 +19,7 @@ using namespace std;
 #define sc second
 const int N = 1e6 + 1;
 long long binpow(long long a, long long b, long long m) {
-    a %= m;
+    a %= m;dd
     long long res = 1;
     while (b > 0) {
         if (b & 1)
